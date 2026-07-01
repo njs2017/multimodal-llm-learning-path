@@ -2,6 +2,16 @@
 
 Curated videos to pair with the curriculum. The goal is not to watch everything, but to use videos when a concept needs a visual walkthrough.
 
+## If you are a newcomer, watch in this order
+
+1. Hugging Face VLM intro: <https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/vlm-intro>
+2. Multimodal Large Language Model Intro: <https://www.youtube.com/watch?v=jjdKfk89yAM>
+3. LLaVA demo-oriented intro: <https://www.youtube.com/watch?v=q59QMugQyaQ>
+4. CLIP lecture: <https://www.youtube.com/watch?v=BcfAkQagEWU>
+5. BLIP-2 Hugging Face study group: <https://www.youtube.com/watch?v=k0DAtZCCl1w>
+
+Do not begin with the 5+ hour PaliGemma implementation unless you already know Transformers.
+
 ## Recommended order
 
 ### 1. Prerequisites

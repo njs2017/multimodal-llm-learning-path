@@ -2,6 +2,28 @@
 
 Different goals require different paths through the repo.
 
+## Track 0 - Newcomer
+
+Goal: build intuition before papers, math, or training.
+
+1. `START_HERE.md`
+2. `beginner/01-what-is-multimodal-ai.md`
+3. `beginner/02-core-mental-model.md`
+4. `beginner/03-clip-before-llava.md`
+5. `beginner/04-from-clip-to-vlm.md`
+6. `beginner/05-training-without-the-math.md`
+7. `beginner/06-how-to-read-vlm-papers.md`
+8. `beginner/07-common-misconceptions.md`
+9. `beginner/08-first-projects.md`
+10. `labs/01-clip-retrieval.md`
+
+Minimum projects:
+
+- Manual VLM test on 20 images
+- CLIP retrieval demo
+- Mini evaluation set with 30 examples
+
+
 ## Track A - Conceptual researcher
 
 Goal: understand the field and read papers confidently.

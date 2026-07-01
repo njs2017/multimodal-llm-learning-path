@@ -1,8 +1,10 @@
 # Multimodal LLM Learning Path
 
-A research-backed, hands-on learning path for understanding **multimodal large language models (MLLMs)** and **multimodal training**: vision-language models, audio/video extensions, alignment, datasets, evaluation, and practical projects.
+**New to multimodal models? Start with [`START_HERE.md`](START_HERE.md).**
 
-This repository is meant for engineers/researchers who already know basic LLMs and want to understand how models like LLaVA, BLIP-2, Flamingo, Qwen-VL/Omni, GPT-4V/4o-style systems, Gemini-style systems, and modern VLM agents are built and trained.
+A beginner-friendly, research-backed, hands-on learning path for understanding **multimodal large language models (MLLMs)** and **multimodal training**: vision-language models, audio/video extensions, alignment, datasets, evaluation, and practical projects.
+
+This repository is meant for newcomers, engineers, and researchers who want to understand how models like LLaVA, BLIP-2, Flamingo, Qwen-VL/Omni, GPT-4V/4o-style systems, Gemini-style systems, and modern VLM agents are built and trained.
 
 ## What you will learn
 
@@ -34,6 +36,16 @@ By the end, you should be able to explain and prototype:
 ```text
 .
 ├── README.md
+├── START_HERE.md
+├── beginner/
+│   ├── 01-what-is-multimodal-ai.md
+│   ├── 02-core-mental-model.md
+│   ├── 03-clip-before-llava.md
+│   ├── 04-from-clip-to-vlm.md
+│   ├── 05-training-without-the-math.md
+│   ├── 06-how-to-read-vlm-papers.md
+│   ├── 07-common-misconceptions.md
+│   └── 08-first-projects.md
 ├── curriculum/
 │   ├── 00-prerequisites.md
 │   ├── 01-foundations.md
@@ -57,6 +69,7 @@ By the end, you should be able to explain and prototype:
 │   ├── 03-finetune-small-vlm.md
 │   └── 04-vlm-evaluation-harness.md
 ├── resources/
+│   ├── beginner-reading.md
 │   ├── papers.md
 │   ├── youtube-videos.md
 │   ├── model-zoo.md
@@ -91,6 +104,16 @@ Then they are trained in stages:
 
 ## How to use this repo
 
+### If you are new to multimodal models
+
+1. Start with [`START_HERE.md`](START_HERE.md).
+2. Read the `beginner/` folder in order.
+3. Use [`resources/beginner-reading.md`](resources/beginner-reading.md) before survey papers.
+4. Watch the beginner videos in [`resources/youtube-videos.md`](resources/youtube-videos.md).
+5. Do `labs/01-clip-retrieval.md` before trying to fine-tune anything.
+
+### If you already know the basics
+
 1. Choose a route in [`learning-tracks.md`](learning-tracks.md): conceptual researcher, builder, agent-focused, or training/alignment specialist.
 2. Read the curriculum in order or follow your selected track.
 3. Pair each module with videos from [`resources/youtube-videos.md`](resources/youtube-videos.md).
@@ -108,7 +131,7 @@ Then they are trained in stages:
 
 ## Primary sources used
 
-See `resources/papers.md`, `resources/youtube-videos.md`, `resources/model-zoo.md`, and `resources/datasets-benchmarks.md` for the full source list.
+See `resources/beginner-reading.md`, `resources/papers.md`, `resources/youtube-videos.md`, `resources/model-zoo.md`, and `resources/datasets-benchmarks.md` for the full source list.
 
 Key anchors:
 
