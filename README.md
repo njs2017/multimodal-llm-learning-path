@@ -80,6 +80,7 @@ By the end, you should be able to explain and prototype:
 │   ├── beginner-reading.md
 │   ├── papers.md
 │   ├── youtube-videos.md
+│   ├── youtube-insights.md
 │   ├── model-zoo.md
 │   ├── datasets-benchmarks.md
 │   └── glossary.md
@@ -148,7 +149,7 @@ Then they are trained in stages:
 
 ## Primary sources used
 
-See `resources/beginner-reading.md`, `resources/papers.md`, `resources/youtube-videos.md`, `resources/model-zoo.md`, and `resources/datasets-benchmarks.md` for the full source list.
+See `resources/beginner-reading.md`, `resources/papers.md`, `resources/youtube-videos.md`, `resources/youtube-insights.md`, `resources/model-zoo.md`, and `resources/datasets-benchmarks.md` for the full source list.
 
 Key anchors:
 

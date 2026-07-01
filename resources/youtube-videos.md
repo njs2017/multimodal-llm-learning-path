@@ -2,6 +2,8 @@
 
 Curated videos to pair with the curriculum. The goal is not to watch everything, but to use videos when a concept needs a visual walkthrough.
 
+For transcript-derived summaries and key learning insights, see [`youtube-insights.md`](youtube-insights.md).
+
 ## If you are a newcomer, watch in this order
 
 1. Hugging Face VLM intro: <https://huggingface.co/learn/computer-vision-course/en/unit4/multimodal-models/vlm-intro>
@@ -22,6 +24,7 @@ Do not begin with the 5+ hour PaliGemma implementation unless you already know T
   <https://www.youtube.com/watch?v=BcfAkQagEWU>  
   Best for: understanding why CLIP became the foundation for many VLMs.  
   Covers: image-text contrastive learning, zero-shot transfer, robustness, limitations, data overlap, broader impacts.  
+  Insight: CLIP is a representation model, not a full visual assistant; it teaches matching before reasoning.  
   Watch with: `curriculum/01-foundations.md`.
 
 - **Foundation multimodal vision language models** - playlist  
@@ -35,6 +38,7 @@ Do not begin with the 5+ hour PaliGemma implementation unless you already know T
   <https://www.youtube.com/watch?v=jjdKfk89yAM>  
   Best for: a compact introduction to typical MLLM architecture and training.  
   Chapters from search metadata: intro, MLLM architecture, MLLM training, challenges, LLaVA, BLIP-2, future.  
+  Insight: the standard MLLM pattern is modality encoder -> adapter/projector -> LLM, followed by staged alignment and instruction tuning.  
   Watch with: `curriculum/02-architectures.md` and `curriculum/03-training-pipeline.md`.
 
 - **Lecture 5 - Visual-Language Models Introduction Part-II: FLAMINGO, FLAVA, PAINTER, BLIP-2** - UCF CRCV  
@@ -47,7 +51,8 @@ Do not begin with the 5+ hour PaliGemma implementation unless you already know T
 - **Computer Vision Study Group Session on BLIP-2** - Hugging Face  
   <https://www.youtube.com/watch?v=k0DAtZCCl1w>  
   Best for: a paper-study style explanation of BLIP-2.  
-  Focus while watching: why BLIP-2 freezes the vision encoder and LLM, what Q-Former does, and what is actually trained.
+  Focus while watching: why BLIP-2 freezes the vision encoder and LLM, what Q-Former does, and what is actually trained.  
+  Insight: Q-Former is a learned query bridge that selects useful visual information for the LLM.
 
 - **Chat with your Image! BLIP-2 connects Q-Former w/ Vision-Language models** - Discover AI  
   <https://www.youtube.com/watch?v=QHktvcxsGJ0>  
@@ -64,7 +69,8 @@ Do not begin with the 5+ hour PaliGemma implementation unless you already know T
 - **How LLaVA works - A Multimodal Open Source LLM for image recognition and chat** - Oxen  
   <https://www.youtube.com/watch?v=bK9ns4DkxQg>  
   Best for: paper discussion and practical intuition around the LLaVA recipe.  
-  Focus while watching: projector alignment, synthetic instruction data, and visual instruction tuning.
+  Focus while watching: projector alignment, synthetic instruction data, and visual instruction tuning.  
+  Insight: LLaVA shows that a simple projector plus good visual instruction data can create useful multimodal assistant behavior.
 
 - **New LLaVA AI explained: GPT-4 VISION's Little Brother** - Discover AI  
   <https://www.youtube.com/watch?v=O5mnYvxdKFI>  
@@ -78,6 +84,7 @@ Do not begin with the 5+ hour PaliGemma implementation unless you already know T
   Best for: deep implementation.  
   Covers: CLIP/SigLIP, ViT, PaliGemma-style architecture, Gemma decoder, KV-cache, image feature projection, attention masks, GQA, RoPE, inference.  
   Code: <https://github.com/hkproj/pytorch-paligemma>  
+  Insight: implementation reveals the hidden tensor work behind the simple diagram: image tokens, projection, masks, KV-cache, and decoding.  
   Watch with: `labs/02-build-a-tiny-vlm.md`. Do not start here unless you are comfortable with Transformers.
 
 - **Vision-Language Models Tutorial | Build & Train VLMs From Scratch**  
