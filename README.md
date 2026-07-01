@@ -46,6 +46,10 @@ By the end, you should be able to explain and prototype:
 │   ├── 06-how-to-read-vlm-papers.md
 │   ├── 07-common-misconceptions.md
 │   └── 08-first-projects.md
+├── course/
+│   ├── syllabus.md
+│   ├── week-00-orientation.md
+│   └── ... week files
 ├── curriculum/
 │   ├── 00-prerequisites.md
 │   ├── 01-foundations.md
@@ -63,6 +67,10 @@ By the end, you should be able to explain and prototype:
 ├── projects/
 │   └── project-ideas.md
 ├── learning-tracks.md
+├── quizzes/
+├── evaluation/
+├── capstone/
+├── scripts/
 ├── labs/
 │   ├── 01-clip-retrieval.md
 │   ├── 02-build-a-tiny-vlm.md
@@ -121,6 +129,15 @@ Then they are trained in stages:
 5. Implement at least two projects from [`projects/project-ideas.md`](projects/project-ideas.md).
 6. Work through the hands-on labs in [`labs/`](labs/).
 7. Maintain your own error log: where did the model hallucinate, fail OCR, miss spatial relations, or ignore the visual input?
+
+## Course additions
+
+- [`course/syllabus.md`](course/syllabus.md) - guided 8-week course.
+- [`quizzes/`](quizzes/) - self-check quizzes and answers.
+- [`evaluation/`](evaluation/) - leaderboard caveats, failure taxonomy, and eval template.
+- [`capstone/`](capstone/) - final project options.
+- [`scripts/`](scripts/) - beginner CLIP and eval helper scripts.
+- [`diagrams/`](diagrams/) - Mermaid diagrams for core concepts.
 
 ## New hands-on labs
 

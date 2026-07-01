@@ -1,0 +1,7 @@
+flowchart TD
+    IMG[Image] --> VE[Vision encoder: CLIP / SigLIP / ViT]
+    VE --> CONN[Connector: projector / Q-Former / resampler]
+    TXT[User question] --> TOK[Tokenizer]
+    CONN --> LLM[Language model]
+    TOK --> LLM
+    LLM --> OUT[Answer]

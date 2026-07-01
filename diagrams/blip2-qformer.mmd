@@ -1,0 +1,8 @@
+flowchart LR
+    IMG[Image] --> VE[Frozen vision encoder]
+    VE --> VF[Visual features]
+    Q[Learned query tokens] --> QF[Q-Former]
+    VF --> QF
+    QF --> LLM[Frozen / partially tuned LLM]
+    TXT[Prompt] --> LLM
+    LLM --> OUT[Caption / answer]

@@ -179,8 +179,10 @@ Follow this order:
 6. `beginner/05-training-without-the-math.md`
 7. `beginner/06-how-to-read-vlm-papers.md`
 8. `beginner/07-common-misconceptions.md`
-9. `resources/youtube-videos.md`
-10. `labs/01-clip-retrieval.md`
+9. `course/syllabus.md`
+10. `resources/youtube-videos.md`
+11. `labs/01-clip-retrieval.md`
+12. `quizzes/00-vocabulary.md`
 
 ## What not to do first
 

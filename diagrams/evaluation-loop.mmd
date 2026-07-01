@@ -1,0 +1,7 @@
+flowchart TD
+    D[Eval examples: image + prompt + expected answer] --> M[Run VLM]
+    M --> O[Model output]
+    O --> R[Rubric scoring]
+    R --> F[Failure taxonomy]
+    F --> A[Adjust data / prompts / model / evaluation]
+    A --> D

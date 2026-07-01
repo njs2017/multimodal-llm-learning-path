@@ -1,0 +1,8 @@
+flowchart TD
+    S[Screenshot / camera state] --> VLM[VLM perception + reasoning]
+    G[User goal] --> VLM
+    VLM --> ACT[Action: click / type / tool call]
+    ACT --> ENV[Environment changes]
+    ENV --> S2[New screenshot]
+    S2 --> VER[Verify success / detect risk]
+    VER --> VLM

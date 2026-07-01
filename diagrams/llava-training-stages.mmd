@@ -1,0 +1,7 @@
+flowchart TD
+    A[Pretrained CLIP vision encoder] --> C[Projector]
+    B[Pretrained LLM] --> D[Multimodal assistant]
+    C --> D
+    S1[Stage 1: freeze vision + LLM, train projector on image-text pairs] --> S2[Stage 2: visual instruction tuning on image + instruction -> answer]
+    S2 --> S3[Optional: preference alignment / safety tuning]
+    S3 --> E[Evaluate OCR, VQA, charts, grounding, hallucination]

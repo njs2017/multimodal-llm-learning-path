@@ -1,0 +1,9 @@
+flowchart LR
+    I1[Image: dog on beach] --> IE[Image encoder]
+    T1[Text: dog on beach] --> TE[Text encoder]
+    IE --> IV[Image embedding]
+    TE --> TV[Text embedding]
+    IV --> S[Similarity matrix]
+    TV --> S
+    S --> P[Pull matching pairs together]
+    S --> N[Push mismatched pairs apart]
