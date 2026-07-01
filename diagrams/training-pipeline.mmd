@@ -1,0 +1,18 @@
+flowchart TD
+    A[Raw modalities: image / audio / video / document / screen] --> B[Modality encoder]
+    B --> C[Connector: projector / Q-Former / resampler / cross-attention adapter]
+    T[Text prompt tokens] --> D[LLM backbone]
+    C --> D
+    D --> E[Response: text / tool call / action / speech tokens]
+
+    P0[Stage 0: choose pretrained backbones] --> P1[Stage 1: connector alignment]
+    P1 --> P2[Stage 2: multimodal instruction tuning]
+    P2 --> P3[Stage 3: task mixture tuning]
+    P3 --> P4[Stage 4: preference and safety alignment]
+    P4 --> P5[Stage 5: eval-driven iteration]
+
+    P1 -. trains .-> C
+    P2 -. trains .-> C
+    P2 -. LoRA/full/partial .-> D
+    P4 -. DPO/RLHF/GRPO .-> D
+    P5 -. benchmarks and error analysis .-> P1
