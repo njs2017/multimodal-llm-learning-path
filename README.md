@@ -50,8 +50,16 @@ By the end, you should be able to explain and prototype:
 │   └── open-research-questions.md
 ├── projects/
 │   └── project-ideas.md
+├── learning-tracks.md
+├── labs/
+│   ├── 01-clip-retrieval.md
+│   ├── 02-build-a-tiny-vlm.md
+│   ├── 03-finetune-small-vlm.md
+│   └── 04-vlm-evaluation-harness.md
 ├── resources/
 │   ├── papers.md
+│   ├── youtube-videos.md
+│   ├── model-zoo.md
 │   ├── datasets-benchmarks.md
 │   └── glossary.md
 └── diagrams/
@@ -83,15 +91,24 @@ Then they are trained in stages:
 
 ## How to use this repo
 
-1. Read the curriculum in order.
-2. For each module, read the required papers/resources.
-3. Produce the weekly output artifact.
-4. Implement at least two projects from `projects/project-ideas.md`.
-5. Maintain your own error log: where did the model hallucinate, fail OCR, miss spatial relations, or ignore the visual input?
+1. Choose a route in [`learning-tracks.md`](learning-tracks.md): conceptual researcher, builder, agent-focused, or training/alignment specialist.
+2. Read the curriculum in order or follow your selected track.
+3. Pair each module with videos from [`resources/youtube-videos.md`](resources/youtube-videos.md).
+4. For each module, produce the weekly output artifact.
+5. Implement at least two projects from [`projects/project-ideas.md`](projects/project-ideas.md).
+6. Work through the hands-on labs in [`labs/`](labs/).
+7. Maintain your own error log: where did the model hallucinate, fail OCR, miss spatial relations, or ignore the visual input?
+
+## New hands-on labs
+
+- [`labs/01-clip-retrieval.md`](labs/01-clip-retrieval.md) - CLIP retrieval and failure analysis.
+- [`labs/02-build-a-tiny-vlm.md`](labs/02-build-a-tiny-vlm.md) - trace the tensor flow of image -> projector -> LLM.
+- [`labs/03-finetune-small-vlm.md`](labs/03-finetune-small-vlm.md) - fine-tune or evaluate a small VLM.
+- [`labs/04-vlm-evaluation-harness.md`](labs/04-vlm-evaluation-harness.md) - build a practical multimodal eval set.
 
 ## Primary sources used
 
-See `resources/papers.md` and `resources/datasets-benchmarks.md` for the full source list.
+See `resources/papers.md`, `resources/youtube-videos.md`, `resources/model-zoo.md`, and `resources/datasets-benchmarks.md` for the full source list.
 
 Key anchors:
 

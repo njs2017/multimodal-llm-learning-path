@@ -104,3 +104,8 @@ Why read: practical tooling for VLM SFT, DPO, GRPO/related methods.
 Source: <https://huggingface.co/blog/vlms-2025>
 
 Why read: concise 2025 overview of any-to-any models, small VLMs, video language models, multimodal agents, safety, and alignment.
+
+
+## Video companion
+
+A curated video list is available at [`youtube-videos.md`](youtube-videos.md). Use it to pair lectures and implementation walkthroughs with the paper sequence above.
