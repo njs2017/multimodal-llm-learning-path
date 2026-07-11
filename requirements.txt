@@ -1,5 +1,5 @@
-torch
-transformers
-pillow
-requests
-numpy
+# Optional dependencies for the CLIP demo.
+# The evaluation lab and tests use only Python's standard library.
+pillow>=10,<12
+torch>=2.2,<3
+transformers>=4.45,<5

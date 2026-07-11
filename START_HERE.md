@@ -107,6 +107,10 @@ Modern multimodal LLMs build on these representation ideas but add language-mode
 
 ## Recommended first week
 
+Before Day 1, get a quick practical win: complete [`labs/00-first-multimodal-eval.md`](labs/00-first-multimodal-eval.md). It takes about 15 minutes and needs only Python, not a GPU or API key.
+
+Copy [`PROGRESS.md`](PROGRESS.md) to `MY_PROGRESS.md` if you want a checklist and a place to link the evidence you create.
+
 ### Day 1: Understand the landscape
 
 Read:
@@ -172,17 +176,18 @@ Do:
 Follow this order:
 
 1. `START_HERE.md`
-2. `beginner/01-what-is-multimodal-ai.md`
-3. `beginner/02-core-mental-model.md`
-4. `beginner/03-clip-before-llava.md`
-5. `beginner/04-from-clip-to-vlm.md`
-6. `beginner/05-training-without-the-math.md`
-7. `beginner/06-how-to-read-vlm-papers.md`
-8. `beginner/07-common-misconceptions.md`
-9. `course/syllabus.md`
-10. `resources/youtube-videos.md`
-11. `labs/01-clip-retrieval.md`
-12. `quizzes/00-vocabulary.md`
+2. `labs/00-first-multimodal-eval.md`
+3. `beginner/01-what-is-multimodal-ai.md`
+4. `beginner/02-core-mental-model.md`
+5. `beginner/03-clip-before-llava.md`
+6. `beginner/04-from-clip-to-vlm.md`
+7. `beginner/05-training-without-the-math.md`
+8. `beginner/06-how-to-read-vlm-papers.md`
+9. `beginner/07-common-misconceptions.md`
+10. `course/syllabus.md`
+11. `resources/youtube-videos.md`
+12. `labs/01-clip-retrieval.md`
+13. `quizzes/00-vocabulary.md`
 
 ## What not to do first
 

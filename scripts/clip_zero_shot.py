@@ -8,6 +8,7 @@ This intentionally uses Hugging Face's zero-shot-image-classification pipeline,
 matching the official Transformers task guide.
 """
 import argparse
+
 from transformers import pipeline
 
 
